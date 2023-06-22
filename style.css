@@ -30,6 +30,7 @@ header {
   width: calc(100% / 3);
   padding: 15px;
   position: relative;
+  padding-top: 30px;
 }
 
 img {
@@ -57,10 +58,13 @@ img {
 
 .red-discount {
   background-color: red;
+  color: white;
+  display: inline;
 }
 
 .green-info {
   background-color: green;
+  color: white;
 }
 
 .image-container {
@@ -77,4 +81,13 @@ img {
   position: absolute;
   bottom: 520px;
   left: 400px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.hearts:hover {
+  color: red;
 }
