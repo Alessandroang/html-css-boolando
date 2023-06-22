@@ -27,18 +27,54 @@ header {
 }
 
 .card {
-  width: 100%;
+  width: calc(100% / 3);
   padding: 15px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.img-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card:hover .img-hover {
+  display: block;
 }
 
 .flex {
   display: flex;
 }
 
-.red {
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.red-discount {
   background-color: red;
 }
 
-.green {
+.green-info {
   background-color: green;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-container {
+  position: absolute;
+  top: 70%;
+}
+
+.hearts {
+  position: absolute;
+  bottom: 520px;
+  left: 400px;
 }
